@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>الموقع الشخصي - كريم محمد</title>
+    <title>الموقع الشخصي - كريم عبدالكريم</title>
+    <link rel="icon" type="image/svg+xml" href="/public/k.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;600;700&display=swap"
       rel="stylesheet"
@@ -12,202 +13,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <style>
-      :root {
-        --primary-color: #2c3e50;
-        --secondary-color: #16a085;
-        --accent-color: #e67e22;
-        --text-color: #333;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Noto Sans Arabic", sans-serif;
-      }
-
-      body {
-        background-color: #f8f9fa;
-        line-height: 1.8;
-        color: var(--text-color);
-      }
-
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-
-      header {
-        background: linear-gradient(135deg, var(--primary-color), #34495e);
-        color: white;
-        text-align: center;
-        padding: 80px 0;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-      }
-
-      .profile-img {
-        width: 220px;
-        height: 220px;
-        border-radius: 50%;
-        margin: 20px auto;
-        border: 5px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease;
-      }
-
-      .profile-img:hover {
-        transform: scale(1.05);
-      }
-
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 15px;
-        letter-spacing: -1px;
-      }
-
-      .section {
-        background-color: white;
-        margin: 30px 0;
-        padding: 40px;
-        border-radius: 15px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-        transition: transform 0.3s ease;
-      }
-
-      .section:hover {
-        transform: translateY(-5px);
-      }
-
-      h2 {
-        color: var(--secondary-color);
-        font-size: 1.8rem;
-        border-right: 4px solid var(--accent-color);
-        padding-right: 20px;
-        margin-bottom: 30px;
-        position: relative;
-      }
-
-      .qualification-list {
-        list-style: none;
-        font-size: 1.1rem;
-      }
-
-      .qualification-list li {
-        margin-bottom: 20px;
-        padding-right: 40px;
-        position: relative;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 15px;
-      }
-
-      .qualification-list li::before {
-        content: "\f19d";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        color: var(--accent-color);
-        position: absolute;
-        right: -30px;
-        top: 2px;
-        font-size: 1.2rem;
-      }
-
-      .contact-info {
-        background: var(--primary-color);
-        color: white;
-        padding: 60px 0;
-        text-align: center;
-      }
-
-      .contact-info h3 {
-        font-size: 2rem;
-        margin-bottom: 30px;
-      }
-
-      .contact-info p {
-        margin: 15px 0;
-        font-size: 1.1rem;
-      }
-
-      .contact-info i {
-        margin-left: 10px;
-        color: var(--secondary-color);
-      }
-
-      @media (max-width: 768px) {
-        .container {
-          padding: 10px;
-        }
-
-        .section {
-          padding: 25px;
-        }
-
-        h1 {
-          font-size: 2rem;
-        }
-
-        h2 {
-          font-size: 1.5rem;
-        }
-      }
-
-      .badge {
-        background: var(--secondary-color);
-        color: white;
-        padding: 5px 15px;
-        border-radius: 20px;
-        font-size: 0.9rem;
-        margin-right: 10px;
-      }
-
-      .timeline {
-        border-right: 3px solid var(--secondary-color);
-        padding-right: 30px;
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
       <img src="public/1.jpeg" alt="صورة كريم محمد" class="profile-img" />
-      <h1>كريم محمد</h1>
-      <p>خبير في الإدارة والدراسات الإسلامية</p>
+      <h1>كريم عبدالكريم</h1>
+      <p>باحث في علوم الإدارة والدراسات الإسلامية</p>
     </header>
 
     <div class="container">
       <section class="section">
         <h2>نبذة عني</h2>
         <p class="bio-text">
-          محاضر وخبير في الإدارة والدراسات الإسلامية، أتمتع بخبرة أكاديمية
-          وعملية تمتد لأكثر من 15 عامًا في مجال إدارة الجودة والفكر الديني
-          المعتدل، أسعى دائمًا إلى الجمع بين الأصالة الإسلامية والحداثة
-          الإدارية.
+          باحث في علوم الإدارة والدراسات الإسلامية، يتمتع بخبرة واسعة في مجال
+          إدارة الجودة والفكر الديني المعتدل وتجديد الخطاب الديني
         </p>
       </section>
 
       <section class="section">
         <h2>المؤهلات العلمية</h2>
         <ul class="qualification-list">
-          <li>
-            <span class="badge">2020</span> ماجستير في الإدارة - تخصص إدارة
-            الجودة
-          </li>
-          <li>
-            <span class="badge">2015</span> بكالوريوس تجارة - إدارة أعمال -
-            جامعة الإسكندرية
-          </li>
-          <li>
-            <span class="badge">2018</span> دبلومة في التربية - جامعة الأزهر
-            الشريف
-          </li>
-          <li>
-            <span class="badge">2017</span> معهد إعداد الدعاة تحت إشراف الأزهر
-            الشريف
-          </li>
-          <li>
-            <span class="badge">2010</span> إجازة في حفظ القرآن الكريم كاملاً
-          </li>
+          <li>ماجستير في الإدارة - تخصص إدارة الجودة</li>
+          <li>بكالوريوس تجارة - إدارة أعمال - جامعة الإسكندرية</li>
+          <li>دبلومة في التربية - جامعة الأزهر الشريف</li>
+          <li>دراسات عليا بالأزهر الشريف - وردس المواد الشرعية</li>
+          <li>معهد إعداد الدعاة تحت إشراف الأزهر الشريف</li>
+          <li>إجازة في حفظ القرآن الكريم كاملاً</li>
         </ul>
       </section>
 
@@ -215,29 +47,33 @@
         <h2>الخبرة العملية</h2>
         <div class="timeline">
           <div class="experience-item">
-            <h3>محاضر رئيسي <i class="fas fa-chalkboard-teacher"></i></h3>
-            <p class="company">الأكاديمية العربية للعلوم والتكنولوجيا</p>
-            <p class="duration">2018 - حتى الآن</p>
+            <h4 class="company">
+              يعمل بالأكاديمية العربية للعلوم والتكنولوجيا
+            </h4>
             <ul class="responsibilities">
-              <li>تدريس مقررات إدارة الجودة الشاملة</li>
-              <li>الإشراف على المشاريع البحثية</li>
+              <li>خبرة 20 عام في إصدار الشهادات والوثائق المؤمنة</li>
+              <li>إلقاء محاضرات في قضايا الإيمان والفكر الديني الصحيح</li>
+              <li>استشاري في إدارة الجودة الشاملة</li>
+            </ul>
+            <h4 style="margin-top: 15px">وحاصل على شهادات</h4>
+            <ul>
+              <li>مراقب جودة لISO 9001</li>
+              <li>مراقب جودة لISO 45001</li>
             </ul>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <h2>الإنجازات</h2>
+        <h2>الإنجازات والأعمال</h2>
         <div class="achievements-grid">
           <div class="achievement-card">
             <i class="fas fa-microphone-alt"></i>
-            <h3>40+ محاضرة</h3>
-            <p>في الفكر الديني المعتدل</p>
+            <p>تقديم عدة محاضرات وخطب دينية</p>
           </div>
           <div class="achievement-card">
             <i class="fas fa-book-open"></i>
-            <h3>12 بحثًا علميًا</h3>
-            <p>في الإدارة والتربية</p>
+            <p>الإشراف على دورات تحفيظ القرآن الكريم وتدريس العلوم الشرعية</p>
           </div>
         </div>
       </section>
@@ -247,9 +83,10 @@
       <div class="container">
         <h3>تواصل معي</h3>
         <p>
-          <i class="fas fa-envelope"></i> البريد الإلكتروني: example@email.com
+          <i class="fas fa-envelope"></i> البريد الإلكتروني:
+          karimquran@gmail.com
         </p>
-        <p><i class="fas fa-phone"></i> هاتف: 0123456789</p>
+        <p><i class="fas fa-phone"></i> هاتف: 01095115560</p>
         <div class="social-links">
           <a href="#"><i class="fab fa-linkedin"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
