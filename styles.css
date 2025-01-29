@@ -96,7 +96,7 @@ h4 {
   font-weight: 900;
   color: var(--accent-color);
   position: absolute;
-  right: -30px;
+  right: -20px;
   top: 2px;
   font-size: 1.2rem;
 }
@@ -162,4 +162,8 @@ h4 {
 .achievement-card {
   display: flex;
   gap: 20px;
+}
+
+.achievement-card > i {
+  margin-top: 8px;
 }
