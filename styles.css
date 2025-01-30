@@ -93,6 +93,7 @@ body.en h2 {
   border-left: 4px solid var(--accent-color);
   border-right: none;
   padding-left: 20px;
+  padding-right: 0;
 }
 
 h4 {
@@ -130,6 +131,7 @@ body.en .qualification-list li::before {
 }
 body.en .qualification-list li {
   padding-left: 20px;
+  padding-right: 0;
 }
 
 .contact-info {
@@ -170,6 +172,10 @@ body.en .qualification-list li {
   h2 {
     font-size: 1.5rem;
   }
+  .lang-toggle {
+    top: 20px;
+    left: 20px;
+  }
 }
 
 .badge {
@@ -190,6 +196,7 @@ body.en .timeline {
   border-right: none;
   border-left: 3px solid var(--secondary-color);
   padding-left: 10px;
+  padding-right: 0;
 }
 
 .timeline ul {
